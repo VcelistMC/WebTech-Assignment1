@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>French Restraunt</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="#Blog">Blog</a>
+        <a href="#Menu">Menu</a>
+        <a href="#Contacts">Contacts</a>
+        <a href="#About">About</a>
+        <a href="#Home">Home</a>
+    </div>
+    <div class="homeparent">
+        <div class="homediv1"></div>
+        <div class="bigText">
+            <label>French Restraunt</label>
+        </div>
+        <div class="smolText">
+            <label>We’re the best restaurant in town</label>
+        </div>
+        <div class="homediv4">
+            <button class="btn">Learn More!</button>
+        </div>
+        <div class="homediv5">
+            <button id="bookBtn" class="btn">Book a visit</button>
+        </div>
+    </div>
+</body>
+<script>
+    document.getElementById("bookBtn").onclick = function () {
+        location.href = "./booking.html";
+    };
+</script>
+
+</html>
